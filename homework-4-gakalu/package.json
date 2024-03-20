@@ -1,0 +1,22 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "Create a custom hook `useForm` that will persist the state of all form controls in a single object:\r ```javascript\r const App = () => {\r   const [formValues, handleChange] = useForm({ email: \"\", password: \"\" });",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/homework-4-gakalu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/homework-4-gakalu/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/homework-4-gakalu#readme",
+  "dependencies": {
+    "react": "^18.1.0"
+  }
+}
