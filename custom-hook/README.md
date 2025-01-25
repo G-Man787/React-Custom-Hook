@@ -1,5 +1,5 @@
-# CS571 Homework 04
-## Question 01
+# Form custom hook
+## Project criteria 1
 Create a custom hook `useForm` that will persist the state of all form controls in a single object:
 ```javascript
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
 };
 ```
   
-## Question 02
+## Project criteria 2
 1. Convert the following App component from class-based component to function-based component
 2. This React application re-renders `MessageComponent` every time the state changes, whether we changed the `count` or `value`. Persist the Application state by using `useState()`.
 ```javascript

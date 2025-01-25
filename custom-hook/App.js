@@ -1,6 +1,6 @@
 import React from 'react';
 import{useState,useReducer,useContext} from 'react';
-//Question 01
+//CR1
 
 const useForm = (callback) => {
 const [values, setValues] = useState({});
@@ -17,7 +17,7 @@ return { handleChange, handleSubmit, values, }
 
 //=============================================
 
-//Question 02 no1
+//CR2 no1
 const App1=()=>{ 
 const [state,setState] = useState({ count: 0, value: "my message goes here" });
 const handleChange = e =>setState({ value: e.target.value }); 
@@ -37,7 +37,7 @@ return (
 //=====================================================
 
 
-// Question 02 no2
+// CR2 no2
 const App2=()=>{ 
 const [state,setState] = useState({ count: 0, value: "my message goes here" });
 const handleChange = e =>setState({ value: e.target.value }); 
